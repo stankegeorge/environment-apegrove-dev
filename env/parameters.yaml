@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:apegrove/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:apegrove/pipelineUser:token
+  username: cloudbees-ci-cd[bot]
+prow:
+  hmacToken: vault:apegrove/prow:hmacToken
+segmentWriteKey: vault:apegrove:segmentWriteKey
